@@ -53,7 +53,7 @@ println(vacasConNumeros)
 
 ---
 
-### 4. Explicación del Ahorcado con vacas
+### 4. Explicación del Ahorcado
 
 En el código del ahorcado usamos la expresion regular para filtrar que son solo letras, de la A a la Z,vocales con tilde y la letra ñ.
 
