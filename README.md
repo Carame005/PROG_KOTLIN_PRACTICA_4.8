@@ -55,7 +55,9 @@ println(vacasConNumeros)
 
 ### 4. Explicación del Ahorcado con vacas
 
+```kotlin
 
+```
 
 ---
 
