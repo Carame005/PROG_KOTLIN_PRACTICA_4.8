@@ -126,4 +126,4 @@ fun main() {
 
 ---
 
-Espero que estas explicaciones con vacas te ayuden a entender mejor las expresiones regulares. 🐄 ¡Dime si necesitas más ejemplos!
+
