@@ -55,25 +55,7 @@ println(vacasConNumeros)
 
 ### 4. Explicación del Ahorcado con vacas
 
-En un juego de ahorcado de vacas, imagina que el jugador tiene que adivinar letras para formar el nombre de la vaca.
 
-Por ejemplo, si el nombre secreto es `"VacaManchada"`, podemos usar una expresión regular para verificar si la letra ingresada es válida (solo letras y no números o símbolos).
-
-```kotlin
-val regex = Regex("^[a-zA-Z]$")  
-val entrada = "M"  
-
-if (regex.matches(entrada)) {
-    println("Letra válida para adivinar la vaca")
-} else {
-    println("Eso no es una letra válida, intenta de nuevo")
-}
-```
-
-**Explicación:**
-
-- `^[a-zA-Z]$` → Solo permite letras de la A a la Z (como las que forman el nombre de la vaca).
-- Así evitamos que el jugador intente cosas como "@" o "9".
 
 ---
 
