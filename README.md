@@ -56,7 +56,11 @@ println(vacasConNumeros)
 ### 4. Explicación del Ahorcado con vacas
 
 ```kotlin
-
+val patron = if (idioma == Idioma.ES) {
+                "^[a-záéíóúüñ]+$"
+            } else {
+                "^[a-z]+$"
+            }
 ```
 
 ---
